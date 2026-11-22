@@ -1,0 +1,59 @@
+
+@import "tailwindcss";
+
+:root {
+  --background: #080D20;
+  --foreground: #F8FAFC;
+  --primary: #60A5FA;
+  --secondary: #818CF8;
+  --surface: #111A33;
+  --muted: #94A3B8;
+  --border: #273454;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(
+      ellipse at 80% 20%,
+      rgba(49, 46, 129, 0.30),
+      transparent 45%
+    ),
+    radial-gradient(
+      ellipse at 10% 80%,
+      rgba(37, 99, 235, 0.16),
+      transparent 40%
+    ),
+    linear-gradient(
+      135deg,
+      #080D20,
+      #101936,
+      #080D20
+    );
+
+  background-attachment: fixed;
+  color: var(--foreground);
+}
+.bg-main {
+  background:
+    radial-gradient(
+      ellipse at 80% 20%,
+      rgba(49, 46, 129, 0.30),
+      transparent 45%
+    ),
+    radial-gradient(
+      ellipse at 10% 80%,
+      rgba(37, 99, 235, 0.16),
+      transparent 40%
+    ),
+    linear-gradient(
+      135deg,
+      #080D20,
+      #101936,
+      #080D20
+    );
+}

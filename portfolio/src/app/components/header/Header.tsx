@@ -15,7 +15,7 @@ export default function Header() {
           <Link href="/">Home</Link>
           <Link href="#sobre">About</Link>
           <Link href="#projetos">Projects</Link>
-          <Link href="#contato">Contact</Link>
+          <Link href="/contato">Contact</Link>
         </div>
       </nav>
     </header>

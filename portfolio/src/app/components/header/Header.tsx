@@ -3,7 +3,7 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <header className="header">
+    <header className="headers">
       <nav className="header-container">
         <div className="header-logo">
           <Link href="/">
@@ -12,7 +12,7 @@ export default function Header() {
         </div>
 
         <div className="header-menu">
-          <Link href="#inicio">Home</Link>
+          <Link href="/">Home</Link>
           <Link href="#sobre">About</Link>
           <Link href="#projetos">Projects</Link>
           <Link href="#contato">Contact</Link>
